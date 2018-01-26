@@ -12,6 +12,8 @@
 		7FB827B2201B2EF00032393A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FB827B0201B2EF00032393A /* Main.storyboard */; };
 		7FB827B4201B2EF00032393A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FB827B3201B2EF00032393A /* Assets.xcassets */; };
 		7FB827B7201B2EF00032393A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FB827B5201B2EF00032393A /* LaunchScreen.storyboard */; };
+		7FB827C0201B32A20032393A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 7FB827BE201B32A20032393A /* LICENSE */; };
+		7FB827C1201B32A20032393A /* QiDao.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 7FB827BF201B32A20032393A /* QiDao.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7FB827B3201B2EF00032393A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FB827B6201B2EF00032393A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FB827B8201B2EF00032393A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FB827BE201B32A20032393A /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		7FB827BF201B32A20032393A /* QiDao.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QiDao.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		7FB827AB201B2EF00032393A /* QiDao */ = {
 			isa = PBXGroup;
 			children = (
+				7FB827BE201B32A20032393A /* LICENSE */,
+				7FB827BF201B32A20032393A /* QiDao.podspec */,
 				7FB827AC201B2EF00032393A /* AppDelegate.swift */,
 				7FB827AE201B2EF00032393A /* ViewController.swift */,
 				7FB827B0201B2EF00032393A /* Main.storyboard */,
@@ -125,7 +131,9 @@
 			files = (
 				7FB827B7201B2EF00032393A /* LaunchScreen.storyboard in Resources */,
 				7FB827B4201B2EF00032393A /* Assets.xcassets in Resources */,
+				7FB827C0201B32A20032393A /* LICENSE in Resources */,
 				7FB827B2201B2EF00032393A /* Main.storyboard in Resources */,
+				7FB827C1201B32A20032393A /* QiDao.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58FAQA4Y36;
 				INFOPLIST_FILE = QiDao/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tlh.QiDao;
@@ -289,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58FAQA4Y36;
 				INFOPLIST_FILE = QiDao/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tlh.QiDao;
