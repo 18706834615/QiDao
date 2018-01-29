@@ -25,7 +25,8 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-   王艳茹写的工具类
+
+   王艳茹写的工具类王艳茹写的工具类王艳茹写的工具类王艳茹写的工具类王艳茹写的工具类王艳茹写的工具类王艳茹写的工具类王艳茹写的工具类王艳茹写的工具类王艳茹写的工具类
                    DESC
 
   s.homepage     = "https://github.com/18706834615/QiDao"
@@ -91,10 +92,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "QiDao"
   s.exclude_files = "Classes/Exclude"
 
-  # s.public_header_files = "Classes/**/*.h"
+  # s.public_header_files = "Classes/**/*"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -131,7 +132,7 @@ Pod::Spec.new do |s|
   #  you can include multiple dependencies to ensure it works.
 
   # s.requires_arc = true
-
+    s.swift_version = "3.2"
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
 
